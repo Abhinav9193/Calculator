@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class CalC {
     public static void main(String[] args) {
         int a,b;
-        int sum, diff, mul, div;
+        int sum, diff, mul, div,power;
         int n;
         Scanner sc = new Scanner(System.in);
 
@@ -37,6 +37,12 @@ public class CalC {
         {
             div = a/b;
             System.out.println("Divide is :" + div);
+        }
+
+        if(n==5)
+        {
+            power = a^b;
+            System.out.println("Value is :" + power);
         }
     }
 }
